@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Audio</title>
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- AUDIO -->
+    <!-- ================================= -->
+
+    <!--
+        <audio> ব্যবহার করে webpage-এ
+        audio/music যোগ করা হয়।
+
+        controls:
+        Browser-এ Play, Pause, Volume ইত্যাদি
+        control দেখাবে।
+    -->
+
+    <audio controls>
+
+        <!--
+            এখানে audio file-এর location দিতে হবে।
+
+            example:
+            music.mp3
+
+            অর্থাৎ audio.html-এর একই folder-এ
+            music.mp3 file থাকলে এটি কাজ করবে।
+        -->
+
+        <source src="music.mp3" type="audio/mpeg">
+
+        <!--
+            যদি browser audio support না করে,
+            তাহলে এই message দেখাবে।
+        -->
+
+        Your browser does not support the audio element.
+
+    </audio>
+
+</body>
+
+</html>
