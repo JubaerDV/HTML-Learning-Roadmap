@@ -239,3 +239,59 @@ HTML-Learning-Roadmap/
 ├── Level 10 — Practice Projects/
 │
 └── README.md
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+<body>
+    <h1>Hello i'm learn</h1>
+    <p>i'm learning html.</p>
+    <hr>
+    <p>abdullah</p>
+    <strong>yeas i'm</strong><br>
+    <i>Jubayer</i><br>
+    <em>Jubayer</em> <br>
+    <a href="https://www.instagram.com/hamzachoudhury11/"> Hamza Choudhury Instagram</a> <br>
+    <img src="./image/Histon Can.jfif" alt="">
+    <ul><li>Hamza Chaudhury</li></ul>
+    <ol><li>Jamal bhuya</li></ol>
+    <h1>Text Formate</h1><br>
+     <b>Bold</b><br>
+     <strong>Strong</strong><br>
+     <i>Italic</i><br>
+     <em>emity</em><br>
+     <mark>Mark</mark><br>
+     <Small>Small</Small><br>
+     <del>DEL</del><br>
+     <ins>INS</ins><br>
+     <sub>SUB</sub><br>
+     <sup>SUP</sup><br>
+     <h1>Links & Images</h1><br>
+     <a href="hamzachaudhury"></a>Hamza Chaudhury<br>
+     <h1>🟢 Level 1 — HTML Basics</h1><br>
+ <h4>HTML কী?</h4><p><br>
+↓<br>
+HTML document structure <br>
+↓<br>
+Tags <br>
+↓ <br>
+Elements <br>
+↓ <br>
+Attributes <br>
+↓ <br>
+Head / Body <br>
+↓ <br>
+Headings <br>
+↓ <br>
+Paragraph <br>
+↓ <br>
+br / hr <br>
+</p>
+
+
+</body>
+</html>
