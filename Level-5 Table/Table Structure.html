@@ -1,0 +1,81 @@
+<h3>Table Structure</h3>
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+</thead>
+<!-- <p>Table-এর মূল Data অংশ।</p> -->
+ <tbody>
+    <tr>
+        <td>Jubayer</td>
+        <td>20</td>
+    </tr>
+</tbody>
+<!-- <p>Table-এর শেষের/Footer অংশ।</p> -->
+<tfoot>
+    <tr>
+        <td colspan="2">Total: 2 Students</td>
+    </tr>
+</tfoot>
+<!-- <p>সবগুলো একসাথে Complete Example</p> -->
+ <!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Student Table</title>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+
+    <table border="1">
+
+        <thead>
+
+            <tr>
+                <th colspan="3">Student Information</th>
+            </tr>
+
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+
+            <tr>
+                <td>Jubayer</td>
+                <td>20</td>
+                <td rowspan="2">Bangladesh</td>
+            </tr>
+
+            <tr>
+                <td>Rahim</td>
+                <td>21</td>
+            </tr>
+
+        </tbody>
+
+
+        <tfoot>
+
+            <tr>
+                <td colspan="3">
+                    Total Students: 2
+                </td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

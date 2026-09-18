@@ -1,0 +1,968 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Beginner Lesson 1</title>
+</head>
+
+<body>
+
+    <!-- ================================================== -->
+    <!-- HTML BEGINNER LESSON 1 -->
+    <!-- ================================================== -->
+
+    <h1>📚 HTML Beginner Course</h1>
+
+    <hr>
+
+    <h2>🌐 What is HTML?</h2>
+
+    <p>
+        <b>HTML = HyperText Markup Language</b>
+        <br><br>
+
+        HTML is used to create the <b>structure</b> of a web page.
+    </p>
+
+    <h3>Think of a website like a house:</h3>
+
+    <p>
+        🧱 <b>HTML →</b> Structure of the house
+        <br><br>
+
+        🎨 <b>CSS →</b> Colors, design, layout
+        <br><br>
+
+        ⚙️ <b>JavaScript →</b> Behavior and interaction
+    </p>
+
+
+    <h3>For Example:</h3>
+
+    <p>
+        <b>WEBSITE</b>
+        <br><br>
+
+        HTML → CSS → JavaScript
+        <br><br>
+
+        Structure = HTML
+        <br>
+        Design = CSS
+        <br>
+        Behavior = JavaScript
+    </p>
+
+
+    <h3>HTML tells the browser things like:</h3>
+
+    <ul>
+        <li>"This is a heading."</li>
+        <li>"This is a paragraph."</li>
+        <li>"This is an image."</li>
+        <li>"This is a button."</li>
+        <li>"This is a link."</li>
+    </ul>
+
+
+    <hr>
+
+
+    <h2>🧠 First thing you should understand: HTML uses tags</h2>
+
+    <p>
+        HTML is built using <b>tags</b>.
+    </p>
+
+    <h3>For example:</h3>
+
+    <h1>Hello World</h1>
+
+    <p>
+        Here:
+    </p>
+
+    <p>
+        <b>&lt;h1&gt;</b> = Opening tag
+        <br><br>
+
+        <b>&lt;/h1&gt;</b> = Closing tag
+    </p>
+
+    <h3>Together:</h3>
+
+    <p>
+        <b>&lt;h1&gt;Hello World&lt;/h1&gt;</b>
+    </p>
+
+    <p>
+        This creates a heading.
+    </p>
+
+    <h3>The browser displays:</h3>
+
+    <h1>Hello World</h1>
+
+
+    <h3>Another example:</h3>
+
+    <p>
+        <b>&lt;p&gt;I am learning HTML.&lt;/p&gt;</b>
+    </p>
+
+    <p>
+        <b>&lt;p&gt;</b> means <b>paragraph</b>.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🛠️ What you need to learn HTML</h2>
+
+    <p>
+        You already have <b>VS Code</b>, so you have the main tool you need.
+    </p>
+
+    <p>
+        You also need a web browser.
+    </p>
+
+    <ul>
+        <li>Google Chrome</li>
+        <li>Microsoft Edge</li>
+        <li>Firefox</li>
+    </ul>
+
+    <p>
+        You probably already have Chrome, so that's enough.
+    </p>
+
+
+    <h3>Your basic setup is:</h3>
+
+    <p>
+        VS Code
+        <br>
+        ↓
+        <br>
+        Write HTML
+        <br>
+        ↓
+        <br>
+        Save .html file
+        <br>
+        ↓
+        <br>
+        Open in Chrome
+        <br>
+        ↓
+        <br>
+        See your webpage
+    </p>
+
+
+    <p>
+        <b>
+            You do not need Node.js, npm, XAMPP, or a server
+            to begin learning basic HTML.
+        </b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>🚀 Step 1 — Create your first HTML project</h2>
+
+    <h3>1. Create a folder</h3>
+
+    <p>
+        Create a folder somewhere on your computer.
+    </p>
+
+    <p>
+        <b>Folder name:</b> html-learning
+    </p>
+
+    <p>
+        Example:
+        <br><br>
+
+        Desktop
+        <br>
+        └── html-learning
+    </p>
+
+
+    <h3>2. Open VS Code</h3>
+
+    <p>
+        Open VS Code.
+        <br><br>
+
+        Then go to:
+        <br><br>
+
+        <b>File → Open Folder</b>
+    </p>
+
+    <p>
+        Select:
+        <br>
+        <b>html-learning</b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>📄 Step 2 — Create index.html</h2>
+
+    <p>
+        In VS Code, look at the Explorer on the left.
+    </p>
+
+    <p>
+        Create a new file called:
+        <br><br>
+
+        <b>index.html</b>
+    </p>
+
+    <p>
+        Your project should look like:
+        <br><br>
+
+        html-learning
+        <br>
+        └── index.html
+    </p>
+
+    <p>
+        The <b>.html</b> extension is important.
+    </p>
+
+
+    <hr>
+
+
+    <h2>✍️ Step 3 — Write your first HTML</h2>
+
+    <p>
+        Open <b>index.html</b> and write:
+    </p>
+
+    <p>
+        &lt;!DOCTYPE html&gt;
+        <br><br>
+
+        &lt;html&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My First Website&lt;/title&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello World!&lt;/h1&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;I am learning HTML.&lt;/p&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+    </p>
+
+    <p>
+        Save it using:
+        <br>
+        <b>Ctrl + S</b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>🌎 Step 4 — Open it in your browser</h2>
+
+    <p>
+        Now go to your <b>html-learning</b> folder.
+        <br><br>
+
+        Double-click:
+        <br><br>
+
+        <b>index.html</b>
+    </p>
+
+    <p>
+        It should open in Chrome.
+    </p>
+
+    <h3>You should see:</h3>
+
+    <h1>Hello World!</h1>
+
+    <p>I am learning HTML.</p>
+
+    <p>
+        🎉 <b>Congratulations! You just created your first webpage.</b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>🔍 Now understand what you wrote</h2>
+
+    <p>
+        Don't try to memorize everything yet.
+        <br>
+        Let's break it down.
+    </p>
+
+
+    <h3>&lt;!DOCTYPE html&gt;</h3>
+
+    <p>
+        <b>&lt;!DOCTYPE html&gt;</b>
+    </p>
+
+    <p>
+        This tells the browser:
+        <br><br>
+
+        "This document is HTML5."
+    </p>
+
+    <p>
+        You'll normally put it at the very beginning of an HTML page.
+    </p>
+
+
+    <h3>&lt;html&gt;</h3>
+
+    <p>
+        <b>&lt;html&gt;</b>
+    </p>
+
+    <p>
+        This represents the beginning of the HTML document.
+        <br><br>
+
+        The whole page goes inside it.
+    </p>
+
+
+    <h3>&lt;head&gt;</h3>
+
+    <p>
+        <b>&lt;head&gt;</b>
+    </p>
+
+    <p>
+        The &lt;head&gt; contains information <b>about the webpage</b>.
+    </p>
+
+    <p>
+        For example:
+        <br><br>
+
+        &lt;head&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My First Website&lt;/title&gt;
+        <br>
+        &lt;/head&gt;
+    </p>
+
+    <p>
+        The title appears in the browser tab.
+    </p>
+
+
+    <h3>&lt;title&gt;</h3>
+
+    <p>
+        <b>&lt;title&gt;My First Website&lt;/title&gt;</b>
+    </p>
+
+    <p>
+        This controls the browser tab title.
+    </p>
+
+
+    <h3>&lt;body&gt;</h3>
+
+    <p>
+        This is extremely important.
+    </p>
+
+    <p>
+        The <b>&lt;body&gt;</b> contains the content that users see on the webpage.
+    </p>
+
+    <p>
+        For example:
+        <br><br>
+
+        &lt;body&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello World!&lt;/h1&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;I am learning HTML.&lt;/p&gt;
+        <br><br>
+
+        &lt;/body&gt;
+    </p>
+
+
+    <hr>
+
+
+    <h2>🏷️ Your first important HTML tags</h2>
+
+    <p>
+        You don't need hundreds of tags.
+        <br>
+        Start with these.
+    </p>
+
+    <ul>
+        <li><b>&lt;h1&gt;</b> → Main heading</li>
+        <li><b>&lt;h2&gt;</b> → Second-level heading</li>
+        <li><b>&lt;h3&gt;</b> → Third-level heading</li>
+        <li><b>&lt;p&gt;</b> → Paragraph</li>
+        <li><b>&lt;a&gt;</b> → Link</li>
+        <li><b>&lt;img&gt;</b> → Image</li>
+        <li><b>&lt;ul&gt;</b> → Unordered list</li>
+        <li><b>&lt;ol&gt;</b> → Ordered list</li>
+        <li><b>&lt;li&gt;</b> → List item</li>
+        <li><b>&lt;button&gt;</b> → Button</li>
+        <li><b>&lt;br&gt;</b> → Line break</li>
+        <li><b>&lt;hr&gt;</b> → Horizontal line</li>
+        <li><b>&lt;div&gt;</b> → General container</li>
+        <li><b>&lt;span&gt;</b> → Inline container</li>
+    </ul>
+
+    <p>
+        Don't try to memorize this table.
+        <br>
+        You'll learn these naturally by using them.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🧪 Your first exercise</h2>
+
+    <p>
+        Now change your <b>index.html</b> to this:
+    </p>
+
+    <h1>My Name is Jubayer</h1>
+
+    <p>I am learning HTML.</p>
+
+    <h2>My Hobbies</h2>
+
+    <p>
+        I like programming and learning new technologies.
+    </p>
+
+
+    <p>
+        Save it and refresh your browser.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🧩 Very important concept: Nesting</h2>
+
+    <p>
+        You'll see HTML like this:
+    </p>
+
+    <p>
+        &lt;html&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My Website&lt;/title&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello&lt;/h1&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Welcome to my website.&lt;/p&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+    </p>
+
+    <p>
+        Notice how the tags are inside other tags.
+        <br><br>
+
+        This is called <b>nesting</b>.
+    </p>
+
+
+    <h3>Think of boxes:</h3>
+
+    <p>
+        &lt;html&gt;
+        <br>
+        ├── &lt;head&gt;
+        <br>
+        │&nbsp;&nbsp;&nbsp;&nbsp;└── &lt;title&gt;
+        <br>
+        │
+        <br>
+        └── &lt;body&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── &lt;h1&gt;
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── &lt;p&gt;
+    </p>
+
+    <p>
+        Understanding nesting is one of the most important things for a beginner.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🧱 HTML Elements</h2>
+
+    <p>
+        You will often hear the word <b>element</b>.
+    </p>
+
+    <p>
+        For example:
+        <br><br>
+
+        <b>&lt;h1&gt;Hello&lt;/h1&gt;</b>
+    </p>
+
+    <p>
+        The entire thing is an <b>HTML element</b>.
+    </p>
+
+    <p>
+        Another example:
+        <br><br>
+
+        <b>&lt;p&gt;Hello, I am learning HTML.&lt;/p&gt;</b>
+    </p>
+
+
+    <h3>Generally:</h3>
+
+    <p>
+        Opening Tag
+        <br>
+        ↓
+        <br>
+        &lt;p&gt;
+        <br>
+        ↓
+        <br>
+        Content
+        <br>
+        ↓
+        <br>
+        Hello World
+        <br>
+        ↓
+        <br>
+        Closing Tag
+        <br>
+        ↓
+        <br>
+        &lt;/p&gt;
+    </p>
+
+    <p>
+        Together:
+        <br><br>
+
+        <b>&lt;p&gt;Hello World&lt;/p&gt;</b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>🏷️ Attributes</h2>
+
+    <p>
+        After you understand basic tags,
+        you'll learn <b>attributes</b>.
+    </p>
+
+    <h3>For example:</h3>
+
+    <p>
+        <b>
+            &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;
+        </b>
+    </p>
+
+    <p>
+        Here:
+        <br><br>
+
+        <b>href="https://www.google.com"</b>
+        <br><br>
+
+        is an <b>attribute</b>.
+    </p>
+
+    <p>
+        It gives additional information to the
+        <b>&lt;a&gt;</b> element.
+    </p>
+
+
+    <h3>Another example:</h3>
+
+    <p>
+        <b>
+            &lt;img src="photo.jpg" alt="My photo"&gt;
+        </b>
+    </p>
+
+    <p>
+        Here:
+        <br><br>
+
+        <b>src="photo.jpg"</b>
+        <br><br>
+
+        and
+        <br><br>
+
+        <b>alt="My photo"</b>
+        <br><br>
+
+        are attributes.
+    </p>
+
+
+    <hr>
+
+
+    <h2>📚 How I recommend you learn HTML</h2>
+
+    <p>
+        Don't try to learn HTML by memorizing every tag.
+        <br><br>
+
+        Instead, learn by <b>building</b>.
+    </p>
+
+
+    <h3>Level 1 — HTML Fundamentals</h3>
+
+    <ul>
+        <li>What HTML is</li>
+        <li>HTML document structure</li>
+        <li>Tags</li>
+        <li>Elements</li>
+        <li>Nesting</li>
+        <li>Attributes</li>
+    </ul>
+
+
+    <h3>Level 2 — Text</h3>
+
+    <ul>
+        <li>&lt;h1&gt; → &lt;h6&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;em&gt;</li>
+        <li>&lt;br&gt;</li>
+        <li>&lt;hr&gt;</li>
+    </ul>
+
+
+    <h3>Level 3 — Links</h3>
+
+    <p>
+        Learn:
+        <br><br>
+
+        &lt;a href="..."&gt;
+    </p>
+
+    <ul>
+        <li>URLs</li>
+        <li>Relative links</li>
+        <li>Absolute links</li>
+        <li>Opening links in new tabs</li>
+    </ul>
+
+
+    <h3>Level 4 — Images</h3>
+
+    <p>
+        Learn:
+        <br><br>
+
+        &lt;img&gt;
+    </p>
+
+    <ul>
+        <li>src</li>
+        <li>alt</li>
+        <li>Image paths</li>
+        <li>Folders</li>
+    </ul>
+
+
+    <h3>Level 5 — Lists</h3>
+
+    <ul>
+        <li>&lt;ul&gt;</li>
+        <li>&lt;ol&gt;</li>
+        <li>&lt;li&gt;</li>
+    </ul>
+
+
+    <h3>Level 6 — Tables</h3>
+
+    <ul>
+        <li>&lt;table&gt;</li>
+        <li>&lt;tr&gt;</li>
+        <li>&lt;th&gt;</li>
+        <li>&lt;td&gt;</li>
+    </ul>
+
+
+    <h3>Level 7 — Forms ⭐</h3>
+
+    <p>
+        Very important for web development.
+    </p>
+
+    <ul>
+        <li>&lt;form&gt;</li>
+        <li>&lt;input&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;textarea&gt;</li>
+        <li>&lt;select&gt;</li>
+        <li>&lt;option&gt;</li>
+        <li>&lt;button&gt;</li>
+    </ul>
+
+
+    <h3>Level 8 — Semantic HTML ⭐</h3>
+
+    <ul>
+        <li>&lt;header&gt;</li>
+        <li>&lt;nav&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;article&gt;</li>
+        <li>&lt;aside&gt;</li>
+        <li>&lt;footer&gt;</li>
+    </ul>
+
+
+    <hr>
+
+
+    <h2>🎯 Then move to CSS</h2>
+
+    <p>
+        Once you're comfortable with HTML,
+        we'll move to:
+        <br><br>
+
+        <b>CSS — Cascading Style Sheets</b>
+    </p>
+
+    <p>
+        HTML creates the structure.
+        <br>
+        CSS creates the design.
+    </p>
+
+    <ul>
+        <li>Colors</li>
+        <li>Fonts</li>
+        <li>Sizes</li>
+        <li>Spacing</li>
+        <li>Layouts</li>
+        <li>Animations</li>
+        <li>Responsive design</li>
+    </ul>
+
+
+    <h2>⚡ Then JavaScript</h2>
+
+    <p>
+        After HTML + CSS:
+    </p>
+
+    <p>
+        HTML
+        <br>
+        ↓
+        <br>
+        <b>Structure</b>
+        <br><br>
+
+        CSS
+        <br>
+        ↓
+        <br>
+        <b>Design</b>
+        <br><br>
+
+        JavaScript
+        <br>
+        ↓
+        <br>
+        <b>Functionality</b>
+    </p>
+
+
+    <hr>
+
+
+    <h2>🗺️ Your Learning Roadmap</h2>
+
+    <p>
+        <b>HTML</b>
+        <br>
+        ↓
+        <br>
+        <b>CSS</b>
+        <br>
+        ↓
+        <br>
+        <b>JavaScript</b>
+        <br>
+        ↓
+        <br>
+        <b>TypeScript</b>
+        <br>
+        ↓
+        <br>
+        <b>React</b>
+    </p>
+
+    <p>
+        🚫 <b>Don't jump to React yet.</b>
+        <br><br>
+
+        First become comfortable with HTML.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🏋️ How we'll learn</h2>
+
+    <p>
+        Since you're an absolute beginner,
+        we'll learn by <b>building</b>, not just reading.
+    </p>
+
+
+    <h3>Project 1 — My Personal Profile</h3>
+
+    <ul>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Images</li>
+        <li>Links</li>
+        <li>Lists</li>
+    </ul>
+
+
+    <h3>Project 2 — Simple Recipe Page</h3>
+
+    <ul>
+        <li>Lists</li>
+        <li>Images</li>
+        <li>Headings</li>
+        <li>Links</li>
+        <li>Semantic structure</li>
+    </ul>
+
+
+    <h3>Project 3 — Registration Form</h3>
+
+    <ul>
+        <li>Forms</li>
+        <li>Labels</li>
+        <li>Inputs</li>
+        <li>Buttons</li>
+        <li>Select boxes</li>
+    </ul>
+
+
+    <h3>Project 4 — Simple Personal Website</h3>
+
+    <p>
+        We'll combine everything we've learned.
+    </p>
+
+
+    <hr>
+
+
+    <h2>🚀 Final Goal</h2>
+
+    <p>
+        First learn <b>HTML</b>.
+        <br><br>
+
+        Then learn <b>CSS</b>.
+        <br><br>
+
+        Then learn <b>JavaScript</b>.
+        <br><br>
+
+        Then continue with <b>TypeScript</b> and eventually <b>React</b>.
+    </p>
+
+    <p>
+        🎉 <b>Let's start learning HTML step by step!</b>
+    </p>
+
+
+    <hr>
+
+    <p>
+        <b>HTML Beginner Course — Lesson 1</b>
+    </p>
+
+</body>
+
+</html>
+```
+
+               

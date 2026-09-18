@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Accessibility Basics</title>
+
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- ACCESSIBILITY -->
+    <!-- ================================= -->
+
+    <!--
+        Semantic HTML ব্যবহার করলে
+        webpage-এর structure সহজে বোঝা যায়।
+    -->
+
+    <header>
+
+        <h1>My Website</h1>
+
+    </header>
+
+
+    <main>
+
+        <!--
+            Image-এর alt text দেওয়া হয়েছে।
+
+            বাংলা:
+            Image দেখতে না পারলে বা load না হলে
+            alt text image সম্পর্কে information দেয়।
+        -->
+
+        <img
+            src="profile.jpg"
+            alt="Profile photo of a web developer"
+            width="200"
+        >
+
+
+        <!--
+            Form field-এর সাথে label যুক্ত করা হয়েছে।
+
+            এটি accessibility-এর জন্য গুরুত্বপূর্ণ।
+        -->
+
+        <form>
+
+            <label for="name">
+                Your Name:
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+            >
+
+
+            <br><br>
+
+
+            <!--
+                Button-এর text পরিষ্কার হওয়া উচিত।
+            -->
+
+            <button type="submit">
+                Submit Form
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Copyright © 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

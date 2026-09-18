@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Video</title>
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- VIDEO -->
+    <!-- ================================= -->
+
+    <!--
+        <video> ব্যবহার করে webpage-এ
+        video যোগ করা হয়।
+
+        controls:
+        Play, Pause, Volume, Fullscreen ইত্যাদি
+        controls দেখাবে।
+    -->
+
+    <video controls width="500">
+
+        <!--
+            এখানে video file-এর নাম দিতে হবে।
+
+            example:
+            video.mp4
+        -->
+
+        <source src="video.mp4" type="video/mp4">
+
+        <!--
+            Browser video support না করলে
+            এই message দেখাবে।
+        -->
+
+        Your browser does not support the video element.
+
+    </video>
+
+</body>
+
+</html>
